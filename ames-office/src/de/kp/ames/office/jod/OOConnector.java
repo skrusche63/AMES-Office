@@ -72,6 +72,7 @@ public class OOConnector {
 			}
 			
 		} catch (IOException e) {
+			System.out.println("====> OOConnector.connect(): Failed to connect.");
 			e.printStackTrace();
 		
 		} finally {}

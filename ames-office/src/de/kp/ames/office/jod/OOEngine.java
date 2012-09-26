@@ -49,6 +49,11 @@ public class OOEngine {
 		 */
 		connector = OOConnector.getInstance();
 		connector.connect();
+		
+		/*
+		 * Get formatter instance
+		 */
+		formatter = OOFormatter.getInstance();
 	
 	}
 
